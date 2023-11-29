@@ -1,6 +1,7 @@
 body {
-    background-color: #f8f8f8;
-    font-family: 'Arial', sans-serif;
+    background-color: rgb(210, 201, 244);
+    font-family: 'Nova Square';
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +21,8 @@ button {
     font-size: 16px;
     border: none;
     cursor: pointer;
-}
+    font-family: 'Nova Square';
+ }
 
 button:hover {
     background-color: #6845a0;
@@ -32,4 +34,22 @@ button:hover {
 
 #gift {
     max-width: 200px;
+}
+
+#textao {
+    background-color: #7571ad;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.223);
+    color: white;
+}
+
+div#textao > img {
+    max-width: 200px;
+}
+
+.background {
+    max-width: 90%;
+    text-align: center;
+    max-height: 100%;
 }
